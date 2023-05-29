@@ -14,54 +14,6 @@
 //------------------------------------------------
    
 
-
-// const carta = comprarCarta()
-    
-// console.log(carta.texto)
-// console.log(carta.valor)
-
-// const jogador1 = "Usuário"
-// const jogador2 = "Computador"
-
-// const carta1 = comprarCarta()
-//    console.log(carta1);
-// const carta2 = comprarCarta()
-//    console.log(carta2);
-// const carta3 = comprarCarta()
-//    console.log(carta3);
-// const carta4 = comprarCarta()
-//    console.log(carta4);
-
-// const carta1 = comprarCarta()
-//    // console.log(carta1)
-
-// const carta2 = function (comprarCarta){
-//    // console.log(carta1)
-// }
-// const carta3 = function (comprarCarta){
-//    // console.log(carta1)
-// }
-// const carta4 = function (comprarCarta){
-//    // console.log(carta1)
-// }
-
-// console.log(carta1)
-// carta2()
-// carta3()
-// carta4()
-
-// function comprarCarta(){
-//    const carta1 = comprarCarta()
-//    const carta2 = comprarCarta()
-//    const soma1 = carta1.carta.valor + carta2.carta.valor
-//    console.log(soma1);
-// }
-// console.log(comprarCarta(carta1,carta2))
-
-
-
-//------------------------------------------------
-
 // const carta = comprarCarta()
     
 // console.log(carta.texto)
@@ -105,11 +57,3 @@ if(confirm("Quer iniciar uma nova rodada?")){
 }else{
    console.log("o jogo acabou");
 }
-
-// if(confirm("Quer iniciar uma nova rodada?")){
-//    if(){
-//    } else if (){
-//    } else if (){
-//    }
-//  } else {
-//  }
