@@ -10,3 +10,106 @@
  * 
  * 
  */
+
+//------------------------------------------------
+   
+
+
+// const carta = comprarCarta()
+    
+// console.log(carta.texto)
+// console.log(carta.valor)
+
+// const jogador1 = "Usuário"
+// const jogador2 = "Computador"
+
+// const carta1 = comprarCarta()
+//    console.log(carta1);
+// const carta2 = comprarCarta()
+//    console.log(carta2);
+// const carta3 = comprarCarta()
+//    console.log(carta3);
+// const carta4 = comprarCarta()
+//    console.log(carta4);
+
+// const carta1 = comprarCarta()
+//    // console.log(carta1)
+
+// const carta2 = function (comprarCarta){
+//    // console.log(carta1)
+// }
+// const carta3 = function (comprarCarta){
+//    // console.log(carta1)
+// }
+// const carta4 = function (comprarCarta){
+//    // console.log(carta1)
+// }
+
+// console.log(carta1)
+// carta2()
+// carta3()
+// carta4()
+
+// function comprarCarta(){
+//    const carta1 = comprarCarta()
+//    const carta2 = comprarCarta()
+//    const soma1 = carta1.carta.valor + carta2.carta.valor
+//    console.log(soma1);
+// }
+// console.log(comprarCarta(carta1,carta2))
+
+
+
+//------------------------------------------------
+
+// const carta = comprarCarta()
+    
+// console.log(carta.texto)
+// console.log(carta.valor)
+
+
+console.log("Boas vindas ao jogo BlackJack!")
+
+const carta = comprarCarta()
+const carta1 = comprarCarta()
+   // console.log(carta1.texto)
+const carta2 = comprarCarta()
+   // console.log(carta2.texto);
+const carta3 = comprarCarta()
+   // console.log(carta3.texto);
+const carta4 = comprarCarta()
+   // console.log(carta4.texto);
+
+const somaUsuario = carta1.valor + carta2.valor
+   // console.log(somaUsuario)
+const somaComputador = carta3.valor + carta4.valor
+   // console.log(somaComputador)
+
+const usuario = (`"Usuário - cartas: ${carta1.texto} ${carta2.texto} - pontuação: ${somaUsuario}"`)
+const computador = (`"Computador - cartas: ${carta3.texto} ${carta4.texto} - pontuação: ${somaComputador}"`)
+
+if(confirm("Quer iniciar uma nova rodada?")){
+   if(somaUsuario === somaComputador ){
+      console.log(usuario);
+      console.log(computador);
+      console.log("Empate!");
+   }else if(somaUsuario > somaComputador){
+      console.log(usuario);
+      console.log(computador);
+      console.log("O usuário ganhou!");
+   }else if(somaUsuario < somaComputador){
+      console.log(usuario);
+      console.log(computador);
+      console.log("O computador ganhou!");
+   }
+}else{
+   console.log("o jogo acabou");
+}
+
+// if(confirm("Quer iniciar uma nova rodada?")){
+//    if(){
+//    } else if (){
+//    } else if (){
+//    }
+//  } else {
+//  }
